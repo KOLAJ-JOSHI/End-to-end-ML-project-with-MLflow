@@ -69,3 +69,17 @@ export MLFLOW_TRACKING_PASSWORD=575e2e36158c71f7e753f7b54c0f5e9547bf8bf1
 
 ```
 
+### Docker
+
+Run this code in command prompt:
+To build a docker image:- docker build -t demo-app
+
+To run the docker image :- docker run -p 8080:8080 demo-app
+
+To login docker in terminal :- docker login => To login into docker hub
+
+To push docker image into docker repo :- docker push kolajjoshi/demo-app:latest
+
+
+Pulling the docker image that has been pushed to docker hub:
+docker pull kolajjoshi/demo-app
